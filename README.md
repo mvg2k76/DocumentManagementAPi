@@ -44,5 +44,5 @@ The solution ManageDocuments has been developed using VS2019 (Community Edition)
       Please make sure this setting has the same path provided in appSetting.Json file in ManageDocuments.Api project
 
 ### Note: Before you run Specflow tests please 
-  Copy the SmallDocument.pdf and BigDocument.pdf provided to the path specified 
-	in **DocumentSourceFolder** i.e. **C:\temp\DocumentStore\SourceDocuments**
+  Some of the Specflow scenarios use files SmallDocument.pdf and BigDocument.pdf 
+  Please Copy them to the path specified in the setting **DocumentSourceFolder** i.e. **C:\temp\DocumentStore\SourceDocuments** before any tests are run
